@@ -81,9 +81,11 @@ footer{
     grid-area: product;
     padding: 15px;
 
-    display: grid;
+}
 
+.products-list{
     /*grid-template-columns: 1fr 1fr 1fr;*/
+    display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-column-gap: 25px;
     grid-row-gap: 25px;
@@ -111,11 +113,11 @@ footer{
     padding: 10px;
     line-height: 1.5;
     margin: 0;
-    opacity: 0;
+    opacity: 1;
     transition: all .5s ease; 
 }
 
-.products figure:hover p{
-    transform: scale(2);
+.products article:hover p{
+    transform: scale(1.5);
 }
 
